@@ -1,0 +1,64 @@
+.card {
+	position: relative;
+	width: 175px;
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 auto;
+}
+
+.status {
+	z-index: 1;
+	font-size: 0.80rem;
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	background-color: white;
+	padding: 5px 7px;
+	border-radius: 2px;
+	font-weight: bold;
+}
+
+.image {
+	position: relative;
+	aspect-ratio: 3/4;
+	width: 100%;
+	margin-bottom: 9px;
+}
+
+.review {
+	display: flex;
+	align-items: center;
+	gap: 2px;
+}
+
+.star {
+	display: flex;
+	align-items: center;
+	max-width: 100%;
+	width: 14px;
+}
+
+.title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.rating,
+.reviewCount,
+.title,
+.price {
+	margin: 0;
+	font-size: 12px;
+}
+
+.title {
+	margin: 5px 0;
+}
+
+.reviewCount {
+	color: #918E9B;
+}
+
+.from {
+	font-weight: 600;
+}
