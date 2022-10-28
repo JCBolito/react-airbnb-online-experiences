@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/no-anonymous-default-export
-export default
+const data =
 	[
 		{
 			id: 1,
@@ -41,3 +40,5 @@ export default
 			openSpots: 2
 		}
 	];
+
+export default data;

@@ -9,10 +9,8 @@ export function Navbar() {
 				src={airbnb}
 				alt="airbnb"
 				className={style.logo}
-				// position="relative"
 				objectFit="contain"
 				width="70px"
-			// layout="fill"
 			/>
 		</nav>
 	);

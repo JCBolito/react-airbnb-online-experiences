@@ -9,7 +9,6 @@ export function Hero() {
 					src={heroImg}
 					alt="Hero Image"
 					objectFit="contain"
-				// layout="fill"
 				/>
 			</div>
 			<h1 className={style.header}>Online Experiences</h1>
